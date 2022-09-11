@@ -1,7 +1,7 @@
 # Coded by ††#9999 | https://github.com/TT-Tutorials | https://github.com/TT-Tutorials/GANG-Nuker
 # GANG Discord Nuker / Multi Tool©
 # Copyright © 2022
-########################################+
+########################################
 
 import os
 import random
@@ -13,7 +13,7 @@ from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
  
 from utilities.Settings.common import SlowPrint, getheaders, proxy
 
-###############################################################################+
+###############################################################################
 
 def GANGNUKER_START(token, Server_Name, message_Content):
     if threading.active_count() <= 100:
