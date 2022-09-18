@@ -287,7 +287,7 @@ def spammer():
 {m}[{w}7{Fore.RESET}{m}]{Fore.RESET} Account Nuker   {b}|{Fore.RESET}{m}[{w}15{Fore.RESET}{m}]{Fore.RESET} Webhook Spammer   {b}|{Fore.RESET}{m}[{w}23{Fore.RESET}{m}]{Fore.RESET} Auto Login{Fore.RESET}          {b}|{Fore.RESET}{m}[{w}31{Fore.RESET}{m}]{Fore.RESET}{lr} THREADS{Fore.RESET}
 {m}[{w}8{Fore.RESET}{m}]{Fore.RESET} Server Nuker    {b}|{Fore.RESET}{m}[{w}16{Fore.RESET}{m}]{Fore.RESET} VC Spammer        {b}|{Fore.RESET}{m}[{w}24{Fore.RESET}{m}]{Fore.RESET} DM Deleter{Fore.RESET}          {b}|{Fore.RESET}{m}[{w}32{Fore.RESET}{m}]{Fore.RESET}{lr} EXIT{Fore.RESET}''')
     Write.Print("════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════", Colors.blue_to_purple, interval=0.000)
-    choice = input('\x1B[1m$: >>\x1B[1m ')
+    choice = input('\x1B[1m$: >>\x1B[1m ') 
 
 
 
