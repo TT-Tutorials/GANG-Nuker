@@ -2,7 +2,7 @@
 # GANG Discord Nuker / Multi Tool©
 # Copyright © 2022 ††#9999
 # Copyright © GANG-Nuker
-#########################################################
+######################################################### 
 
 from utilities.Settings.common import *
 from utilities.Settings.update import search_for_updates
