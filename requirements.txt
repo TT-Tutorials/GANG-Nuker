@@ -8,6 +8,7 @@ pyperclip
 pyautogui
 pypiwin32
 websocket
+packaging
 requests
 datetime
 requests
