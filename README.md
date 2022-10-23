@@ -9,7 +9,7 @@
 </p>
 <p align="center">
 <a href="https://github.com/TT-Tutorials/GANG-Nuker/releases/download/v1.0.0/GANG-Nuker.zip">Fast Download</a> ㅤ•ㅤ
-<a href="https://discord.gg/tKrhJgMV">Discord</a> ㅤ•ㅤ
+<a href="https://discord.gg/DuNZuyVdRx">Discord</a> ㅤ•ㅤ
 <a href="https://youtu.be/fLYnbEnbjtE">Setup Tutorial Video</a>
 </p>
 </p>
@@ -143,17 +143,3 @@ except:
     import EXAMPLE v2
 ```
 
-<h1 align="center">
-  <a id="top"></a>✨ Thanks For Using GANG-Nuker! ✨
-</h1>
-
-<p align="center"> 
-  <kbd>
-<img src="https://user-images.githubusercontent.com/94531396/176788016-16c169b5-ace5-4cc2-b633-d752c6c5c2eb.gif"></img>
-  </kbd>
-</p>
-<h2 align="center">
-GANG-Nuker
-    
-@††#9999 
-</h2>
