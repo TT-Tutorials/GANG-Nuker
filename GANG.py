@@ -159,7 +159,7 @@ def spammer():
     Write.Print("                                    | $$ /$$$$| $$$$$$$$| $$ $$ $$| $$ /$$$$\n", Colors.purple_to_blue, interval=0.000)
     Write.Print("                                    | $$|_  $$| $$__  $$| $$  $$$$| $$|_  $$\n", Colors.purple_to_blue, interval=0.000)
     Write.Print(f' > [v{THIS_VERSION}]                         | $$  \ $$| $$  | $$| $$\  $$$| $$  \ $$\n', Colors.purple_to_blue, interval=0.000)
-    Write.Print(f' > [gangnuker.tech]                 |  $$$$$$/| $$  | $$| $$ \  $$|  $$$$$$/\n', Colors.purple_to_blue, interval=0.000)
+    Write.Print(f' > [gangnuker.org]                  |  $$$$$$/| $$  | $$| $$ \  $$|  $$$$$$/\n', Colors.purple_to_blue, interval=0.000)
     Write.Print(" > [Github.com/TT-Tutorials]         \______/ |__/  |__/|__/  \__/ \______/ \n", Colors.purple_to_blue, interval=0.000)
     Write.Print("════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════", Colors.purple_to_blue, interval=0.000)
     print(f'''{m}'''.replace('$', f'{m}${w}') + f'''
@@ -189,7 +189,7 @@ Joiner is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Purchase Mak
 [\x1b[95m>\x1b[95m\x1B[37m] Choice?: """)
 
         if gh in ['01','1']:
-            webbrowser.open('https://gangnuker.tech')
+            webbrowser.open('https://gangnuker.org')
         elif gh in ['02','2']:
             exit = spammer()
         else:
@@ -626,7 +626,7 @@ DM Spammer is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Purchase
 [\x1b[95m>\x1b[95m\x1B[37m] Choice?: """)
 
         if gh in ['01','1']:
-            webbrowser.open('https://gangnuker.tech')
+            webbrowser.open('https://gangnuker.org')
         elif gh in ['02','2']:
             exit = spammer()
         else:
@@ -1080,7 +1080,7 @@ Token Generator is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Pur
 [\x1b[95m>\x1b[95m\x1B[37m] Choice?: """)
 
         if gh in ['01','1']:
-            webbrowser.open('https://gangnuker.tech')
+            webbrowser.open('https://gangnuker.org')
         elif gh in ['02','2']:
             exit = spammer()
         else:
