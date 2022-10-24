@@ -16,6 +16,7 @@ selenium
 keyboard
 colorama
 urlopen
+colored
 discord
 asyncio
 PyNaCl
