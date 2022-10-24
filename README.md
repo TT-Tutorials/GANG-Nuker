@@ -19,7 +19,7 @@
 </p>
 <p align="center">
 PREMIUM VERSION:
-<a href="https://gangnuker.tech/">WEBSITE</a>
+<a href="https://gangnuker.org/">WEBSITE</a>
 </p>
  
 ---
