@@ -1173,7 +1173,7 @@ Token Generator is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Pur
             exit = spammer()
 
 
-
+ 
 #   PFP CHANGER
     if choice == '29':
         Spinner()
