@@ -1,6 +1,6 @@
 # https://github.com/TT-Tutorials | https://github.com/TT-Tutorials/GANG-Nuker
 # Coded / Dev / Owner: ††#1792
-# Copyright © GANG-Nuker
+# Copyright © GANG-Nuker 
 #########################################################
 
 from utilities.Settings.common import *
