@@ -1295,7 +1295,7 @@ Token Generator is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Pur
                     {
                         "$os": "start discord client",
                         "$browser": "Discord",
-                        "$device": "browser"
+                        "$device": "desktop"
                     }
             }
         }
@@ -1323,7 +1323,7 @@ Token Generator is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Pur
                     "session_id": session_id
                 }
         
-                url = self.host + "/interactions"
+                url =host + "/interactions"
                 response = requests.post(url, headers=self.headers, json=send_data)
                 #print(response, response.text)  #please delete comment out if you want to know how to work it
                 if response.status_code == 200:
