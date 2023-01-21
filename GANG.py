@@ -52,11 +52,11 @@ if choice.lower() == 'n' or choice.lower() == 'no':
 #########################################################
 
 def Spinner():
-	l = ['|', '/', '-', '\\', ' ']
-	for i in l+l+l:
-		sys.stdout.write(f"""\r {i}""")
-		sys.stdout.flush()
-		time.sleep(0.1)
+    l = ['|', '/', '-', '\\', ' ']
+    for i in l+l+l:
+        sys.stdout.write(f"""\r {i}""")
+        sys.stdout.flush()
+        time.sleep(0.1)
 
 global cls
 def cls():
@@ -1275,6 +1275,57 @@ Token Generator is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Pur
         print(f"")
         time.sleep(0)
         return spammer()
+
+
+
+#   PUSH BUTTON
+    if choice == "33":
+        channel_id = int(input(f'\n[\x1b[95m>\x1b[95m\x1B[37m] Channel ID: '))
+        message_id = int(input(f'\n[\x1b[95m>\x1b[95m\x1B[37m] Message ID: '))
+        guild_id = int(input(f'\n[\x1b[95m>\x1b[95m\x1B[37m] Guild ID: '))
+        headers = mainHeader(token)
+        ws = websocket.WebSocket()
+        ws.connect('wss://gateway.discord.gg/?v=9&encoding=json')
+        result = json.loads(ws.recv())
+        payload = {
+            "op": 2,
+            "d": {
+                "token": token,
+                "properties":
+                    {
+                        "$os": "windows",
+                        "$browser": "Discord",
+                        "$device": "desktop"
+                    }
+            }
+        }
+        ws.send(json.dumps(payload))
+        time.sleep(1)
+        result = json.loads(ws.recv())
+        session_id = result["d"]["session_id"]
+        host = "https://discord.com/api/v9"
+        url = host + "/channels/" + channel_id + "/messages?limit=100"
+        response = requests.get(url, headers=self.headers)
+        response_json = response.json()
+        for i in response_json:
+            if i["id"] == message_id:
+                custom_id = i.get("components")[0].get("components")[0]["custom_id"]
+                data = {"component_type": 2, "custom_id": custom_id}
+                send_data = {
+                    "type": 3,
+                    "nonce": str((int(time.time())*1000-1420070400000)*4194304),
+                    "guild_id": guild_id,
+                    "channel_id": channel_id,
+                    "message_flags": i["flags"],
+                    "message_id": i["id"],
+                    "application_id": i["application_id"],
+                    "data": data,
+                    "session_id": session_id
+                }
+        
+                url = self.host + "/interactions"
+                response = requests.post(url, headers=self.headers, json=send_data)
+                print(response, response.text)
 
 
 
