@@ -23,32 +23,6 @@ lr = Fore.LIGHTRED_EX
 lb = Fore.LIGHTBLUE_EX
 # r = Fore.RESET
 
-setTitle(f"Proxies    |    ")
-choice = input(f"\n[\x1b[95m>\x1b[95m\x1B[37m] Would You Like To Use Proxies? [Y/N]: {Fore.RESET}")
-if choice.lower() == 'y' or choice.lower() == 'yes':
-        if os.path.basename(sys.argv[0]).endswith("exe"):
-            with open(getTempDir()+"\\gang_proxies", 'w'): pass
-            clear()
-            proxy_scrape()
-            sleep(0.3)
-        try:
-            assert sys.version_info >= (3,9)
-        except AssertionError:
-            print(f"{Fore.RED}Your Python Version is Not supported: ({sys.version_info[0]}.{sys.version_info[1]}.{sys.version_info[2]}), Please Download v3.9+ to use GANG-Nuker!{Fore.RESET}")
-            sleep(5)
-            print("[\x1b[95m1\x1b[95m\x1B[37m] Exiting!")
-            sleep(1.5)
-            os._exit(0)
-        else:
-            with open(getTempDir()+"\\gang_proxies", 'w'): pass
-            clear()
-            proxy_scrape()
-            sleep(0.3)
-        finally:
-            Fore.RESET
-if choice.lower() == 'n' or choice.lower() == 'no':
-    pass
-
 #########################################################
 
 def Spinner():
