@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<a href="https://youtu.be/ap9RE5AP6dE">TOKEN GENERATOR SHOWCASE</a>
+<a href="https://www.youtube.com/watch?v=QqLqglDPNCE">TOKEN GENERATOR SHOWCASE</a>
 
  
 </p>
