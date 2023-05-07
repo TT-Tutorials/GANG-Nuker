@@ -10,7 +10,7 @@
 <p align="center">
 <a href="https://github.com/TT-Tutorials/GANG-Nuker/releases/download/v1.0.0/GANG-Nuker.zip">Fast Download</a> ㅤ•ㅤ
 <a href="https://discord.gg/F5eFWm2puM">Discord</a> ㅤ•ㅤ
-<a href="https://www.youtube.com/watch?v=y5KkL8MCXn0">Setup Tutorial Video</a>
+<a href="https://www.youtube.com/watch?v=nVkysvMVk-M">Setup Tutorial Video</a>
 </p>
 </p>
 <p align="center">
