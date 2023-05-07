@@ -27,7 +27,7 @@ from multiprocessing.spawn import spawn_main
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 import requests, os, sys, re, time, random, os.path, string, subprocess, random, threading, ctypes, shutil
 
-#########################################
+##########################################
 
 THIS_VERSION = "2.5.1"
 
