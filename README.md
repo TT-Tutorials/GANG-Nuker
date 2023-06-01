@@ -29,7 +29,7 @@ PREMIUM VERSION:
 
 <p align="center"> 
   <kbd>
-<img src="https://media.discordapp.net/attachments/997998908791857213/1000706753308139540/unknown.png"></img>
+<img src="https://media.discordapp.net/attachments/1105062508781387786/1113971492435267614/image.png?width=1330&height=662"></img>
   </kbd>
 </p>
 
